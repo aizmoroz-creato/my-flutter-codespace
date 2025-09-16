@@ -1,5 +1,5 @@
 {
-  "name": "Flutter Web (Stable)",
+  "name": "Flutter Web Only (Fast)",
   "build": {
     "dockerfile": "Dockerfile"
   },
@@ -12,5 +12,6 @@
     }
   },
   "forwardPorts": [8080],
-  "postCreateCommand": "flutter --version && flutter doctor"
+  "postCreateCommand": "flutter pub get",
+  "remoteUser": "vscode"
 }
