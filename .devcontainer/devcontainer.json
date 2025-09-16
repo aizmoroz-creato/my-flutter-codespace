@@ -1,0 +1,16 @@
+{
+  "name": "Flutter Web (Stable)",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dart-code.flutter",
+        "dart-code.dart-code"
+      ]
+    }
+  },
+  "forwardPorts": [8080],
+  "postCreateCommand": "flutter --version && flutter doctor"
+}
