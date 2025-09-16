@@ -1,19 +1,17 @@
 {
-  "name": "Flutter Dev Container",
-  "image": "mcr.miscrosoft.com/devcontainers/universal:2",
-  "featuers": {
-    "ghrc.io/devcontainers/feauters/flutter",
-    "version": "latest"
-  }
-},
-"customizations": {
-  "vs-code": {
-    "extensions": [
-      "dart-code.flutter",
-      "dart-code.dart-code"
-    ]
-}
-},
-"forwardPosts": [5000],
-"postCreateCommand": "flutter doctor"
+  "name": "Flutter Dev",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/flutter": "latest"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dart-code.flutter",
+        "dart-code.dart-code"
+      ]
+    }
+  },
+  "forwardPorts": [5000],
+  "postCreateCommand": "flutter doctor"
 }
