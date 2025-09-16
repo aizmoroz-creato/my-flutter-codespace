@@ -1,5 +1,5 @@
 {
-  "name": "Flutter Web Only (Fast)",
+  "name": "Flutter Dev Container",
   "build": {
     "dockerfile": "Dockerfile"
   },
